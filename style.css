@@ -1,0 +1,287 @@
+html {
+    background: #b4b4b4;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(131, 131, 131, 0.7), rgba(131, 131, 131, 0.7)), url("truckbanner.jpg");
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 1000;
+    text-shadow: 3px 3px 5px #ad9535, 5px 5px 5px #ad9535, 11px 6px 5px #ad9535;
+    padding-top: 20px;
+    color: rgb(10, 10, 10);
+}
+
+header h2 {
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 3px 3px 5px rgb(10, 10, 10)
+}
+
+.navsticky {
+    font-size: 20px;
+    background-color: rgb(10, 10, 10);
+    position: sticky;
+    top: 150px;
+}
+
+.navsticky ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navsticky ul li {
+    cursor: pointer;
+    padding: 12px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.navsticky ul li:hover {
+    margin: 0;
+    background-color: #ad9535;
+    color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+.navsticky a {
+    float: none;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 100%;     
+    padding: 2em;     
+    margin: -2em;
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+#number {
+    color: white;
+    cursor: default;
+}
+
+#number:hover {
+    background-color: rgb(10, 10, 10);
+}
+
+#allday {
+    float: left;
+    margin-left: 150px;
+    padding-top: 280px;
+}
+
+#payments {
+    float: right;
+    margin-right: 150px;
+    margin-left: -100px;
+    padding-top: 300px;
+}
+
+.indextext {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.indextext h2 {
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 3px 3px 5px #ad9535;
+    padding-right: 10px;
+}
+
+.indextext p {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-indent: 50px;
+    font-size: 26px;
+    font-weight: 550;
+    line-height: 1.6;
+}
+
+.description {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#services {
+    padding: 0;
+    margin: 0;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#servicelist {
+    text-align: left;
+    margin-left: 30%;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+#servicelist ul {
+    margin-bottom: 30px;
+}
+
+#servicelist li {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.aboutdiv {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.aboutdiv h2 {
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 3px 3px 5px #ad9535;
+    padding-right: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#mission p {
+    text-indent: 50px;
+}
+
+.imgwrap figure {
+    position: relative;
+    margin: 0;
+    margin-left: 600px;
+    padding-right: 30px;
+    float: left;
+}
+
+.imgwrap figcaption {
+    font-weight: 600;
+}
+
+.imgwrap p {
+    text-align: justify;
+}
+
+.aboutdiv p {
+    text-align: left;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-size: 26px;
+    font-weight: 550;
+    line-height: 1.6;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgb(10, 10, 10);
+    width: 100%;
+    background-color: #ad9535;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(10, 10, 10);
+}
+  
+.fields {
+    border-radius: 20px;
+    background-color: rgb(212, 212, 212);
+    padding: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: center;
+}
+
+.fields label {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#servicemsg {
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
